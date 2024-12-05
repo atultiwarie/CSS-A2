@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 7px solid lightgreen;
+  background-image: url(./pexels-padrinan-255379.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+}
+
+.leftheading {
+  background-color: black;
+  border: 5px solid red;
+  border-radius: 25px;
+  width: 350px;
+  height: 150px;
+  padding-left: 23px;
+  font-style: italic;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.leftheading h1 {
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: white;
+}
+
+.midHeading {
+  background-color: black;
+  border: 5px solid red;
+  border-radius: 35px;
+  width: 480px;
+  height: 80px;
+  margin-left: -250px;
+  margin-top: 10px;
+  padding-left: 50px;
+  margin-left: -85px;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.midHeading h2 {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.rigthHeading {
+  border: 7px solid red;
+  background-color: black;
+  border-radius: 25px;
+  width: 350px;
+  height: 150px;
+  display: inline-block;
+  margin-left: 143px;
+  vertical-align: top;
+  margin-top: 25px;
+}
+
+.rigthHeading h3,
+.rigthHeading p {
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 25px;
+  padding: 5px;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: #46a0a0;
+  height: 430px;
+  width: 430px;
+  border: 5px solid grey;
+  padding: 12px;
+  display: inline-block;
+}
+
+.circle p {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  padding-top: 30px;
+  text-decoration: underline;
+  margin-top: 55px;
+}
+
+.form {
+  display: inline-block;
+  border: 8px dashed red;
+  padding-right: 50px;
+  padding-bottom: 70px;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.form h1 {
+  color: red;
+  margin-top: 0;
+}
+
+label {
+  color: red;
+  font-weight: bold;
+  font-size: large;
+}
+
+input {
+  width: 200px;
+}
+
+.menu {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  height: 80px;
+  width: 480px;
+  border-radius: 35px;
+  border: 5px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 500px;
+  margin-top: 30px;
+  font-style: italic;
+}
+
+.menu-top {
+  margin-top: 30px;
+}
+
+.starters {
+  background-color: #00ffff;
+  width: 380px;
+  height: 280px;
+  display: inline-block;
+  margin-left: 75px;
+  border: 3px solid black;
+  border-radius: 35px;
+}
+.starters h1 {
+  color: #00008b;
+  margin-top: 20px;
+}
+.starters ul {
+  margin-left: 100px;
+}
+
+.starters h1 {
+  text-align: center;
+}
